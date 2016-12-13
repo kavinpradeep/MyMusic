@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My_Proj</string>
+    <string name="user_prompt">Choose a User Group</string>
+
+    <string-array name="user_arrays">
+        <item>Kavin</item>
+        <item>Sonal</item>
+        <item>Sriram</item>
+        <item>Arul</item>
+    </string-array>
+
+
+        <string name="action_settings">Settings</string>
+
+</resources>

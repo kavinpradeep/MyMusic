@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Data"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:onClick="getMediaList"
+            android:layout_row="0"
+            android:layout_column="8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OpenMusic"
+            android:id="@+id/button3"
+            android:onClick="MusicOpen"
+            android:layout_row="0"
+            android:layout_column="12" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Song Update"
+            android:id="@+id/button5"
+            android:layout_gravity="right"
+            android:onClick="NextSongUpt"
+            android:layout_row="0"
+            android:layout_column="24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PlayNxt"
+            android:id="@+id/button6"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playNext"
+            android:layout_row="5"
+            android:layout_column="12" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Duration"
+            android:id="@+id/button2"
+            android:onClick="UpdateDuration"
+            android:layout_row="6"
+            android:layout_column="12" />
+
+    </GridLayout>
+
+</LinearLayout>
